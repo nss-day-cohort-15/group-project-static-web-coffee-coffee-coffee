@@ -61,7 +61,7 @@ for (var i = 0; i < productsArray.length; i++) {
   var currentoutput =
   `<article>
     <div class="product">
-      <header>
+      <header class="productName">
         <h1>${productsArray[i].name}</h1>
       </header>
       <img class="image" src=${productsArray[i].imageURL}>

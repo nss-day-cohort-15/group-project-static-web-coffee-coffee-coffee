@@ -7,6 +7,10 @@ CLASS SELECTORS
   font-size: 1.5em;
 }
 
+.productName {
+  border-bottom: 1px solid black;
+}
+
 .jerry_drinking {
   width: 100%;
   text-align: center;
@@ -52,6 +56,9 @@ CLASS SELECTORS
     padding-left: 30em;
 }
 
+.fancyMugs {
+  background-color: lightblue;
+}
 
 .pixnav {
 display: inline-block;
@@ -107,10 +114,6 @@ body {
     color: black;
 }
 
-header {
-  border-bottom: 1px solid black;
-}
-
 nav ul li {
   list-style: none;
   display: inline;
@@ -155,8 +158,8 @@ li {
 nav {
   text-align: center;
   list-style: none;
-  border-bottom: 2px solid white;
   padding-top: 5px;
+  background-color: tomato;
 }
 
 nav a {
