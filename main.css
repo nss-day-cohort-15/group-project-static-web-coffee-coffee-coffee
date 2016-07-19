@@ -19,7 +19,7 @@ CLASS SELECTORS
   border: 1px solid black;
   margin: 5px 1px;
   display: inline-block;
-  height: 20%;
+  height: 600px;
   float: left;
 }
 
@@ -54,7 +54,7 @@ CLASS SELECTORS
 
 
 .pixnav {
-display: block;
+display: inline-block;
 text-align: center;
 padding: 2em;
 }
