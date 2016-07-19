@@ -9,7 +9,7 @@
   height: 100%;
 }
 
-.background:after  {
+.background:after {
   content: "";
   top: 0;
   left: 0;
@@ -20,19 +20,28 @@
   height: 100%;
 }
 
+#header {
+  padding-bottom: 0;
+  margin: 15px;
+}
+
 #address {
   width: 40%;
   float: left;
+  padding: 5px;
+  display: inline-block;
+  margin: 15px;
 }
 
 #contactForm {
   width: 40%;
   float: right;
+  display: inline-block;
+  margin: 5px;
 }
 
 #map {
-  align: center;
-  padding-top: 200px;
+  clear: both;
 }
 
 nav ul li {
