@@ -61,7 +61,6 @@ for (var i = 0; i < productsArray.length; i++) {
 
 }
 
-// console.log("hello");
 
 
 
