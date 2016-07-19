@@ -46,15 +46,16 @@ CLASS SELECTORS
     width: 100%;
 }
 
-.main_footer p {
+.main_footer {
   margin: 0 auto;
+  position: fixed;
+  bottom: 5px;
+  text-align: center;
 }
 
 .byitself {
     text-align: center;
     width: 100%;
-
-/*    padding-left: 30em;*/
 }
 
 .fancyMugs {
@@ -99,11 +100,21 @@ text-align: center;
   background-color: yellow;
 }
 
-p.story {
+.story {
   font-size: 1.6em;
   margin: 1em;
   text-align: justify;
 }
+
+.storyhead {
+  text-align: center;
+}
+
+/*****************************
+HYBRID CLASS/ELEMENT SELECTORS
+*****************************/
+
+
 
 .card li {
   list-style: none;
