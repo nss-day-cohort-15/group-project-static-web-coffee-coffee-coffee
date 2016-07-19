@@ -81,6 +81,15 @@ padding: 2em;
   height: 100%;
 }
 
+.description {
+  margin: 10px;
+  text-align: justify;
+}
+
+.price {
+  background-color: yellow;
+}
+
 p.story {
   font-size: 1.6em;
   margin: 1em;
@@ -154,3 +163,20 @@ nav a {
   text-decoration: none;
   color: black;
 }
+
+h3 {
+  color: darkblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
