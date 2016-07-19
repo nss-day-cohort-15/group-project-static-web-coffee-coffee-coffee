@@ -51,9 +51,10 @@ CLASS SELECTORS
 }
 
 .byitself {
-    margin: 14px;
     text-align: center;
-    padding-left: 30em;
+    width: 100%;
+
+/*    padding-left: 30em;*/
 }
 
 .fancyMugs {
@@ -62,8 +63,9 @@ CLASS SELECTORS
 
 .pixnav {
 display: inline-block;
+width: 100%;
+
 text-align: center;
-padding: 2em;
 }
 
 .front {
@@ -170,16 +172,3 @@ nav a {
 h3 {
   color: darkblue;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
