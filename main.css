@@ -10,11 +10,27 @@ CLASS SELECTORS
 .jerry_drinking {
   width: 100%;
   text-align: center;
+  border-radius: 50%;
 }
 
-.jerry_drinking img {
-  border-radius: 50%;
+.product {
+  width: 24%;
+  display: inline-block;
+  border: 1px solid black;
+  margin: 5px 1px;
+  display: inline-block;
+  height: 20%;
+  float: left;
+}
 
+.image {
+  height: 200px;
+  width: 200px;
+  margin: 10px auto;
+}
+
+.card {
+  text-align: center;
 }
 
 .main_footer {
@@ -30,51 +46,17 @@ CLASS SELECTORS
   margin: 0 auto;
 }
 
-h1 {
-    font-family: "New Times Roman";
-    font-style: ;
-    font-weight: 600;
-    text-align: center;
-    font-size: 15em;
-}
 .byitself {
     margin: 14px;
     text-align: center;
     padding-left: 30em;
 }
-body {
-    color: black;
-}
+
 
 .pixnav {
 display: block;
 text-align: center;
 padding: 2em;
-}
-
-p.story {
-    font-size: 1.6em;
-    margin: 1em;
-    text-align: justify;
-}
-
-nav ul li {
-  list-style: none;
-  display: inline;
-  padding: 5px;
-  text-decoration: none;
-}
-
-nav {
-  text-align: center;
-  list-style: none;
-  border-bottom: 2px solid white;
-  padding-top: 5px;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
 }
 
 .front {
@@ -97,12 +79,28 @@ nav a {
   position: absolute;
   width: 100%;
   height: 100%;
+}
 
+p.story {
+  font-size: 1.6em;
+  margin: 1em;
+  text-align: justify;
+}
+
+.card li {
+  list-style: none;
 }
 /****************
 ELEMENT SELECTORS
 ****************/
 
+body {
+    color: black;
+}
+
+header {
+  border-bottom: 1px solid black;
+}
 
 nav ul li {
   list-style: none;
@@ -118,12 +116,41 @@ nav {
   padding-top: 5px;
 }
 
+h1 {
+    font-family: "New Times Roman";
+    text-align: center;
+    font-size: 2em;
+}
+
 nav a {
   text-decoration: none;
   color: black;
 }
 
-h1 {
+div {
   text-align: center;
-  font-size: 4em;
+  margin: auto;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline;
+  padding: 5px;
+  text-decoration: none;
+}
+
+li {
+  max-width: 30%;
+}
+
+nav {
+  text-align: center;
+  list-style: none;
+  border-bottom: 2px solid white;
+  padding-top: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
 }
